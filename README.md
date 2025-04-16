@@ -23,9 +23,22 @@ Designed for small-scale use cases or as an academic Java project.
 
 
 ## 📂 Project Structure
-InventoryManagementCLI/ ├── App.java // Main application logic
+   src/ ├── App.java // Main application logic
 
 ## How to Run
 1. Install Java JDK 8
-2. Clone the repository and navigate to the project directory.
-3. Compile and run using: javac InventoryApp.java and java InventoryApp   
+2. Clone the repository: git clone repo_url
+3. navigate to the project directory: cd inventory-management-cli
+4. Compile the program: javac App.java
+5. Run the application: java App
+
+🧪 Sample Commands
+  - ADD_PRODUCT 101 Laptop 5 1000
+  - UPDATE_QUANTITY 101 3
+  - VIEW_PRODUCT 101
+  - LIST_PRODUCTS
+  - EXIT
+
+    
+    
+   
